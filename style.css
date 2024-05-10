@@ -32,6 +32,11 @@ header > .home{
 header a{
     color: white;
     text-decoration: none;
+    display: inline-block;
+}
+
+header a:hover{
+    transform: scale(1.07);
 }
 
 header nav ul{
@@ -39,6 +44,43 @@ header nav ul{
 }
 
 header nav ul li{
-    display: inline-block
-    padding 0 30px;
+    display: inline-block;
+    padding: 10px 40px; 
+    font-size: 16px;
+    border: 0;
+    background-color: darkslategray;  
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+header .btn-contato button{
+    padding: 15px 40px;
+    font-size: 20px;
+    font-weight: 600;
+    background-color: purple;
+    border: 0;
+    border-radius: 30px;
+    cursor: pointer;
+    color: lavender;
+}
+
+.circle-container {
+    width: 200px; /* Defina a largura e a altura desejadas para o círculo */
+    height: 200px;
+    border-radius: 50%; /* Isso cria um círculo definindo a borda para metade da largura ou altura */
+    overflow: hidden; /* Oculta qualquer conteúdo que ultrapasse os limites do círculo */
+}
+  
+  .circle-container img {
+    width: 100%; /* A imagem deve preencher todo o espaço do contêiner */
+    height: auto;
+    display: block;
+}
+
+
+
+.text{
+    color: gray;
+    font-size: 16px;
+
 }
