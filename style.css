@@ -71,14 +71,14 @@ header .btn-contato button{
     color: lavender;
 }
 
-.circle-container {
+.container-circulo {
     width: 200px; /* Defina a largura e a altura desejadas para o círculo */
     height: 200px;
     border-radius: 50%; /* Isso cria um círculo definindo a borda para metade da largura ou altura */
     overflow: hidden; /* Oculta qualquer conteúdo que ultrapasse os limites do círculo */
 }
   
-  .circle-container img {
+  .container-circulo img {
     width: 100%; /* A imagem deve preencher todo o espaço do contêiner */
     height: auto;
     display: block;
@@ -109,9 +109,51 @@ section.meio-pagina .geral{
 
 .meio-pagina p span{
     font-size: 45px;
-    
+
 
 }
+
+/*Footer*/
+footer {
+    position: fixed;
+    color: gray;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    padding: 20px 0; /* Espaçamento interno do rodapé */
+  }
+  
+  .links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .links p {
+    margin: auto;
+    padding: 40px;
+    text-align: center;
+    justify-content: center;
+  }
+
+  .links img{
+    width: 5%;
+    height: 5%;
+    align-items: center;
+    justify-content: center;
+  
+
+}
+
+  
+  
+
+
+
+
+
+
 
 /*sobre mim*/
 
@@ -120,3 +162,5 @@ section.meio-pagina .geral{
     font-size: 16px;
 
 }
+
+
