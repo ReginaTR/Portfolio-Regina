@@ -22,6 +22,10 @@ body{
     display: flex;
 }
 
+
+
+
+
 /*Header*/
 
 header{
@@ -84,6 +88,10 @@ header .btn-contato button{
     display: block;
 }
 
+
+
+
+
 /*Meio da página*/
 
 section.meio-pagina{
@@ -102,15 +110,15 @@ section.meio-pagina .geral{
 }
 
 .meio-pagina p{
-    color: rgb(185, 185, 185);
+    color: gray;
     font-size: 40px;
     text-align: center;
 }
 
-.meio-pagina p span{
-    font-size: 45px;
-
-
+.meio-pagina p spam{
+    font-size: px;
+    color: darkslategrey;
+    text-align: center;
 }
 
 /*Footer*/
@@ -121,28 +129,25 @@ footer {
     left: 0;
     width: 100%;
     text-align: center;
-    padding: 20px 0; /* Espaçamento interno do rodapé */
-  }
-  
-  .links {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    padding: 20px 0;
   }
   
   .links p {
     margin: auto;
-    padding: 40px;
     text-align: center;
+    padding: 25px;
     justify-content: center;
   }
 
   .links img{
-    width: 5%;
-    height: 5%;
-    align-items: center;
-    justify-content: center;
-  
+    width: 40px;
+    height: 40px;
+    border: 0;
+    background-color: white;  
+    border-radius: 5px;
+    cursor: pointer;
+    list-style-type: none;
+    margin: 10px;
 
 }
 
