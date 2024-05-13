@@ -42,35 +42,28 @@
 
     <main>
 
-        <div>
-        
-            <h2>Contato:</h2>
-
-                <form action="">
+        <div class="contato">
                     
-                    <table>
-                        
-                        <tr>
-                            <th><label for="nome">Nome:</label></th>
-                            <td><input type="text" name="nome" id="nome"</td>
-                        </tr>
-                        <tr>
-                            <th><label for="email">Email:</label></th>
-                            <td><input type="email" name="email" id="email"></td>
-                        </tr>
-                        <tr>
-                            <th><label for="msg">Digite sua mensagem que entrarei em contato</label></th>
-                            <td><textarea name="msg" rows="4" cols="40">Digite sua mensagem</textarea></td>
-                        </tr>
-                        <tr>
-                            <td></td>
-                            <td><button>Enviar</button></td>
-                        </tr>
-
-                    </table>
         
-                </form>
-    
+            <form action="" method="post">
+
+                <h2>Contate-me:</h2>
+                              
+                <label for="nome">Nome:</label>
+                <input type="text" name="nome" id="nome" required>
+                        
+                <label for="email">Email:</label>
+                <input type="email" name="email" id="email" required>
+                       
+                <label for="msg">Digite sua mensagem:</label>
+                <textarea name="msg" rows="4" cols="40" required></textarea>
+                        
+                <div class="btn-enviar">
+                    <button>Enviar</button>
+                </div>    
+                            
+            </form>
+            
         </div>
     
     </main>

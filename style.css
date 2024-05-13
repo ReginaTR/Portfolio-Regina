@@ -130,16 +130,15 @@ footer {
     width: 100%;
     text-align: center;
     padding: 20px 0;
-  }
-  
-  .links p {
+    
+}
+.links p {
     margin: auto;
     text-align: center;
     padding: 25px;
     justify-content: center;
-  }
-
-  .links img{
+}
+.links img{
     width: 40px;
     height: 40px;
     border: 0;
@@ -148,8 +147,11 @@ footer {
     cursor: pointer;
     list-style-type: none;
     margin: 10px;
-
 }
+.links a{
+    text-decoration: none;  
+}
+
 
   
   
@@ -211,4 +213,66 @@ section.projetos{
     font-size: 30px;
     text-align: center;
     margin-top: 150px;
+}
+
+
+/*Contato*/
+
+form{
+    max-width: 500px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+    color: gray;
+    margin-top: 10px;
+   
+}
+
+form h2{
+    text-align: center;
+    font-size: 50px;  
+}
+
+form input{
+    width: 100%;
+    background-color: rgb(88, 87, 87);
+    border: 0;
+    outline: 0;
+    padding: 20px 15%;
+    border-radius: 15px;
+}
+
+form textarea{
+    background-color: rgb(88, 87, 87);
+    border-radius: 15px;
+    resize: none;
+    border: 0;
+    outline: 0;
+    padding: 20px 15%;
+    max-height: 150px;
+    color: rgb(190, 185, 185);
+    text-align: left;
+}
+
+form div:hover{
+    transform: scale(1.07);
+}
+
+form .btn-enviar{
+    display: flex;
+    justify-content: center;
+}
+form .btn-enviar button{
+    width: 100px;
+    background-color: purple;
+    color: lavender;
+    font-weight: 700;
+    cursor: pointer;
+    padding: 20px;
+    border-radius: 15px;
+    border: 0;
+    font-size: medium;
+    text-align: center;
 }
