@@ -154,35 +154,25 @@ footer {
   
   
 
-
-
-
-
-
-
 /*sobre mim*/
 
 section.sobre{
     padding: 40px 4%;
     color: gray;
 }
-
 section.sobre .geral{
     align-items: center;
     justify-content: center;
     gap: 90px;
 }
-
 .sobre h2{
     font-size: 40px;
     text-align: center;
 }
-
 .sobre p{
     font-size: 20px;
     text-align: justify;      
 }
-
 .img-sobre{
     border-radius: 20px;
 }
@@ -190,7 +180,25 @@ section.sobre .geral{
 
 
 
-/*Formação*/
+/*Profissional*/
+section.profissional{
+    color: gray;
+    padding: 40px 4%;
+    margin: 100px;
+    margin-top: auto;
+    
 
+}
+.prof h2{
+    font-size: 40px;
+    text-align: center;
+    align-items: center;
+   
 
+}
+.prof p{
+    font-size: 20px;
+    text-align: justify;
+    text-indent: 60px;
+}
 
