@@ -106,7 +106,7 @@ section.meio-pagina .geral{
 
 .meio-pagina h1{
     color: gray;
-    font-size: 70px;
+    font-size: 60px;
 }
 
 .meio-pagina p{
@@ -162,10 +162,35 @@ footer {
 
 /*sobre mim*/
 
-.text{
+section.sobre{
+    padding: 40px 4%;
     color: gray;
-    font-size: 16px;
-
 }
+
+section.sobre .geral{
+    align-items: center;
+    justify-content: center;
+    gap: 90px;
+}
+
+.sobre h2{
+    font-size: 40px;
+    text-align: center;
+}
+
+.sobre p{
+    font-size: 20px;
+    text-align: justify;      
+}
+
+.img-sobre{
+    border-radius: 20px;
+}
+
+
+
+
+/*Formação*/
+
 
 
