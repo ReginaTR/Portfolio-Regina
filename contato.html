@@ -45,23 +45,26 @@
         <div class="contato">
                     
         
-            <form action="" method="post">
+            <form action="https://api.staticforms.xyz/submit" method="post">
 
                 <h2>Contate-me:</h2>
                               
                 <label for="nome">Nome:</label>
-                <input type="text" name="nome" id="nome" required>
+                <input type="text" name="name" id="nome" required>
                         
                 <label for="email">Email:</label>
                 <input type="email" name="email" id="email" required>
                        
-                <label for="msg">Digite sua mensagem:</label>
-                <textarea name="msg" rows="4" cols="40" required></textarea>
+                <label for="mensagem">Digite sua mensagem:</label>
+                <textarea name="message" rows="4" cols="40" required></textarea>
                         
                 <div class="btn-enviar">
-                    <button>Enviar</button>
+                    <button type="submit">Enviar</button>
                 </div>    
-                            
+                
+                <input type="hidden" name="accessKey" value="86e8d8ae-ffe0-4e9a-9546-59327fbd8b63">
+                <input type="hidden" name="redirectTo" value="http://localhost:52330/resposta.html">
+
             </form>
             
         </div>

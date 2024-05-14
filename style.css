@@ -276,3 +276,38 @@ form .btn-enviar button{
     font-size: medium;
     text-align: center;
 }
+
+/*Resposta*/
+.resposta{
+    color: gray;
+    margin-top: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;   
+    gap: 30px;
+}
+.resposta h2{
+    font-size: 30px;
+}
+.resposta p{
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+.link-home{
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    margin-top: 30px;
+}
+.link-home a{
+    padding: 20px 4%;
+    font-size: 16px;
+    border: 0;
+    background-color: darkslategray;  
+    border-radius: 30px;
+    cursor: pointer;
+    color: white;
+    text-decoration: none;
+}
