@@ -4,56 +4,44 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;   
 }
-
 body{
     background-color: black;
     height: 100vh;
 }
-
 .home{
     max-width: 1280px;
     margin: 0 auto;
 }
-
 .geral{
     display: flex;
 }
 
 
 
-
-
 /*Header*/
-
 header{
     padding: 40px 4%;
 
 }
-
 header > .home{
     display: flex;
     align-items: center;
     justify-content: space-between;
 
 }
-
 header a{
     color: white;
     text-decoration: none;
     display: inline-block;
 }
-
 header a:hover{
     transform: scale(1.07);
 }
-
 header nav ul{
     list-style-type: none;
 }
-
 header nav ul li{
     display: inline-block;
     padding: 10px 40px; 
@@ -63,7 +51,6 @@ header nav ul li{
     border-radius: 30px;
     cursor: pointer;
 }
-
 header .btn-contato button{
     padding: 15px 40px;
     font-size: 20px;
@@ -74,52 +61,45 @@ header .btn-contato button{
     cursor: pointer;
     color: lavender;
 }
-
 .container-circulo {
-    width: 200px; /* Defina a largura e a altura desejadas para o círculo */
+    width: 200px; 
     height: 200px;
-    border-radius: 50%; /* Isso cria um círculo definindo a borda para metade da largura ou altura */
-    overflow: hidden; /* Oculta qualquer conteúdo que ultrapasse os limites do círculo */
+    border-radius: 50%; 
+    overflow: hidden; 
 }
-  
-  .container-circulo img {
-    width: 100%; /* A imagem deve preencher todo o espaço do contêiner */
+.container-circulo img {
+    width: 100%; 
     height: auto;
     display: block;
 }
 
 
 
-
-
 /*Meio da página*/
-
 section.meio-pagina{
     padding: 50px 4%;
 
 }
-
 section.meio-pagina .geral{
     align-items: center;
     justify-content: center;
 }
-
 .meio-pagina h1{
     color: gray;
     font-size: 60px;
 }
-
 .meio-pagina p{
     color: gray;
     font-size: 40px;
     text-align: center;
 }
-
 .meio-pagina p spam{
     font-size: px;
     color: darkslategrey;
     text-align: center;
 }
+
+
 
 /*Footer*/
 footer {
@@ -135,7 +115,7 @@ footer {
 .links p {
     margin: auto;
     text-align: center;
-    padding: 25px;
+    padding: 20px;
     justify-content: center;
 }
 .links img{
@@ -152,12 +132,9 @@ footer {
     text-decoration: none;  
 }
 
-
-  
   
 
 /*sobre mim*/
-
 section.sobre{
     padding: 40px 4%;
     color: gray;
@@ -178,7 +155,6 @@ section.sobre .geral{
 .img-sobre{
     border-radius: 20px;
 }
-
 
 
 
@@ -216,8 +192,8 @@ section.projetos{
 }
 
 
-/*Contato*/
 
+/*Contato*/
 form{
     max-width: 500px;
     margin: 0 auto;
@@ -229,12 +205,10 @@ form{
     margin-top: 10px;
    
 }
-
 form h2{
     text-align: center;
     font-size: 50px;  
 }
-
 form input{
     width: 100%;
     background-color: rgb(88, 87, 87);
@@ -243,7 +217,6 @@ form input{
     padding: 20px 15%;
     border-radius: 15px;
 }
-
 form textarea{
     background-color: rgb(88, 87, 87);
     border-radius: 15px;
@@ -255,11 +228,9 @@ form textarea{
     color: rgb(190, 185, 185);
     text-align: left;
 }
-
 form div:hover{
     transform: scale(1.07);
 }
-
 form .btn-enviar{
     display: flex;
     justify-content: center;
@@ -276,6 +247,8 @@ form .btn-enviar button{
     font-size: medium;
     text-align: center;
 }
+
+
 
 /*Resposta*/
 .resposta{
