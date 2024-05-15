@@ -21,6 +21,7 @@ body{
 
 
 /*Header do Index*/
+
 header{
     padding: 40px 4%;
 
@@ -61,13 +62,31 @@ header .btn-contato button{
     cursor: pointer;
     color: lavender;
 }
+.container-circulo {
+    width: 200px; 
+    height: 200px;
+    border-radius: 50%; 
+    overflow: hidden; 
+   
+}
+.container-circulo img {
+    width: 100%; 
+    height: auto;
+    display: block;
+}
+
 
 
 /*Menu Mobile*/
+.btn-abrir-menu{
+    display: none;
+    position: fixed; 
+    top: 20px; 
+    right: 20px;
+}
 .btn-abrir-menu i{
     color: purple;
-    font-size: 40px;
-    
+    font-size: 40px;       
 }
 .menu-mobile{
     background-color: darkslategray;
@@ -75,9 +94,27 @@ header .btn-contato button{
     position: fixed;
     top: 0;
     right: 0;
-    z-index: 9999999;
+    z-index: 9999999999999999;
     width: 0%;
-    overflow: hidden;    
+    overflow: hidden; 
+    transition: .2s;   
+}
+.menu-mobile.abrir-menu{
+    width: 40%;
+    z-index: 9999999999999999;
+}
+.menu-mobile.abrir-menu ~ .overlay-menu{
+    display: block;
+}
+.overlay-menu{
+    background-color: #000000a7;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 88888;
+    display: none;
 }
 .menu-mobile .btn-fechar-menu{
     padding: 20px 8%;
@@ -85,12 +122,9 @@ header .btn-contato button{
 .menu-mobile .btn-fechar-menu i{
     color: white;
     font-size: 25px;
-
-
 }
 .menu-mobile nav ul{
-    text-align: right;
-    
+    text-align: right;   
 }
 .menu-mobile nav ul li a{
     display: flex;
@@ -112,6 +146,7 @@ header .btn-contato button{
     height: 200px;
     border-radius: 50%; 
     overflow: hidden; 
+   
 }
 .container-circulo img {
     width: 100%; 
@@ -337,22 +372,31 @@ form .btn-enviar button{
 @media screen and (max-width: 1020px){
 
     /*Index*/
+    .btn-abrir-menu{
+        display: block;
+    }
     .home{
         flex-direction: column;
     }
     .menu-home, .btn-contato{
         display: none;
     }
+    .meio-pagina{
+        padding: 20px 4%;
+    }
     .meio-pagina h1{
-        font-size: 40px;
+        font-size: 35px;
         text-align: center;
+        
     }
     .meio-pagina p{
         font-size: 20px;
+        margin-bottom: 0;
     }
     footer {
         position: relative;     
     }
+    
     /*Página Sobre*/   
     section.sobre .geral{
         flex-direction: column-reverse;
@@ -386,7 +430,8 @@ form .btn-enviar button{
     /*Página Projetos*/
     .projetos p{
         font-size: 25px;
-        margin-top: auto;
+        margin-top: 50px;
+        margin-bottom: 70px;
     } 
     /*Página Resposta*/
     .resposta{
