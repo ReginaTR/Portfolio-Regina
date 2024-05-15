@@ -20,7 +20,7 @@ body{
 
 
 
-/*Header*/
+/*Header do Index*/
 header{
     padding: 40px 4%;
 
@@ -36,13 +36,13 @@ header a{
     text-decoration: none;
     display: inline-block;
 }
-header a:hover{
+header nav.menu-home a:hover{
     transform: scale(1.07);
 }
 header nav ul{
     list-style-type: none;
 }
-header nav ul li{
+header nav.menu-home ul li{
     display: inline-block;
     padding: 10px 40px; 
     font-size: 16px;
@@ -61,6 +61,52 @@ header .btn-contato button{
     cursor: pointer;
     color: lavender;
 }
+
+
+/*Menu Mobile*/
+.btn-abrir-menu i{
+    color: purple;
+    font-size: 40px;
+    
+}
+.menu-mobile{
+    background-color: darkslategray;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    right: 0;
+    z-index: 9999999;
+    width: 0%;
+    overflow: hidden;    
+}
+.menu-mobile .btn-fechar-menu{
+    padding: 20px 8%;
+}
+.menu-mobile .btn-fechar-menu i{
+    color: white;
+    font-size: 25px;
+
+
+}
+.menu-mobile nav ul{
+    text-align: right;
+    
+}
+.menu-mobile nav ul li a{
+    display: flex;
+    color: gray;
+    font-size: 22px;
+    font-weight: 400;
+    padding: 20px 8%;
+    flex-direction: column;
+}
+.menu-mobile nav ul li a:hover{
+    background-color: gray;
+    color: darkslategray;
+}
+
+
+
 .container-circulo {
     width: 200px; 
     height: 200px;
@@ -75,7 +121,7 @@ header .btn-contato button{
 
 
 
-/*Meio da página*/
+/*Meio da página Index*/
 section.meio-pagina{
     padding: 50px 4%;
 
@@ -101,9 +147,9 @@ section.meio-pagina .geral{
 
 
 
-/*Footer*/
+/*Footer do Index*/
 footer {
-    position: fixed;
+    position: relative;
     color: gray;
     bottom: 0;
     left: 0;
@@ -117,6 +163,7 @@ footer {
     text-align: center;
     padding: 20px;
     justify-content: center;
+   
 }
 .links img{
     width: 40px;
@@ -127,6 +174,7 @@ footer {
     cursor: pointer;
     list-style-type: none;
     margin: 10px;
+    margin-top: auto ;
 }
 .links a{
     text-decoration: none;  
@@ -134,7 +182,7 @@ footer {
 
   
 
-/*sobre mim*/
+/*Página Sobre mim*/
 section.sobre{
     padding: 40px 4%;
     color: gray;
@@ -158,7 +206,7 @@ section.sobre .geral{
 
 
 
-/*Profissional*/
+/*Página Profissional*/
 section.profissional{
     color: gray;
     padding: 40px 4%;
@@ -178,7 +226,7 @@ section.profissional{
 
 
 
-/*Projetos*/
+/*Página Projetos*/
 section.projetos{
     align-items: center;
     margin: 0;
@@ -193,7 +241,7 @@ section.projetos{
 
 
 
-/*Contato*/
+/*Página Contato*/
 form{
     max-width: 500px;
     margin: 0 auto;
@@ -250,7 +298,7 @@ form .btn-enviar button{
 
 
 
-/*Resposta*/
+/*Página Resposta*/
 .resposta{
     color: gray;
     margin-top: 300px;
@@ -283,4 +331,91 @@ form .btn-enviar button{
     cursor: pointer;
     color: white;
     text-decoration: none;
+}
+
+/*Responsividade do site*/
+@media screen and (max-width: 1020px){
+
+    /*Index*/
+    .home{
+        flex-direction: column;
+    }
+    .menu-home, .btn-contato{
+        display: none;
+    }
+    .meio-pagina h1{
+        font-size: 40px;
+        text-align: center;
+    }
+    .meio-pagina p{
+        font-size: 20px;
+    }
+    footer {
+        position: relative;     
+    }
+    /*Página Sobre*/   
+    section.sobre .geral{
+        flex-direction: column-reverse;
+        gap: 10px;
+    }    
+    section.sobre{
+        padding: 20px 4%;
+    } 
+    .sobre h2{
+        font-size: 30px;
+        text-align: center;
+    }
+    .sobre p{
+        font-size: 17px;
+    }
+    /*Página Profissional*/
+    section.profissional{
+        
+        padding: 20px 8%;
+        margin: auto;
+        gap: 10px;
+    }
+    .prof h2{
+        font-size: 30px;
+        
+    }
+    .prof p{
+        font-size: 17px;
+        text-indent: 60px;
+    }
+    /*Página Projetos*/
+    .projetos p{
+        font-size: 25px;
+        margin-top: auto;
+    } 
+    /*Página Resposta*/
+    .resposta{
+        margin-top: 150px;
+        gap: 30px;
+    }
+    .resposta h2{
+        font-size: 25px;
+    }
+    .resposta p{
+        font-size: 17px;
+    }
+    .link-home a{
+        padding: 20px 8%;
+        font-size: 17px;
+        border-radius: 10px;    
+    }
+    /*Página Contato*/
+    form{
+        max-width: 300px;
+        margin: auto;  
+    }
+    form h2{
+        font-size: 40px;  
+    }
+    form .btn-enviar button{
+        margin-top: 15px;
+        margin-bottom: 20px;
+        padding: 15px;        
+    }    
+
 }
