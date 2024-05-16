@@ -24,13 +24,11 @@ body{
 
 header{
     padding: 40px 4%;
-
 }
 header > .home{
     display: flex;
     align-items: center;
     justify-content: space-between;
-
 }
 header a{
     color: white;
@@ -67,7 +65,6 @@ header .btn-contato button{
     height: 200px;
     border-radius: 50%; 
     overflow: hidden; 
-   
 }
 .container-circulo img {
     width: 100%; 
@@ -86,7 +83,7 @@ header .btn-contato button{
 }
 .btn-abrir-menu i{
     color: purple;
-    font-size: 40px;       
+    font-size: 40px;      
 }
 .menu-mobile{
     background-color: darkslategray;
@@ -146,7 +143,6 @@ header .btn-contato button{
     height: 200px;
     border-radius: 50%; 
     overflow: hidden; 
-   
 }
 .container-circulo img {
     width: 100%; 
