@@ -120,7 +120,7 @@ header .btn-contato button{
     padding: 20px 8%;
 }
 .menu-mobile .btn-fechar-menu i{
-    color: white;
+    color: gray;
     font-size: 25px;
 }
 .menu-mobile nav ul{
@@ -140,7 +140,7 @@ header .btn-contato button{
 }
 
 
-
+/*Imagem do Header*/
 .container-circulo {
     width: 200px; 
     height: 200px;
