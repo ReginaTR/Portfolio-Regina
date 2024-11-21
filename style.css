@@ -217,22 +217,48 @@ footer {
 section.sobre{
     padding: 40px 4%;
     color: gray;
+    margin-bottom: 16px;
 }
 section.sobre .geral{
     align-items: center;
     justify-content: center;
     gap: 90px;
+    margin-bottom: 16px;
 }
 .sobre h2{
     font-size: 40px;
     text-align: center;
+    margin-bottom: 30px;
 }
 .sobre p{
     font-size: 20px;
-    text-align: justify;      
+    text-align: justify;
+    margin-bottom: 18px;
+    text-indent: 30px;
+    line-height: 1.5;
+}
+.sobre ul {
+    font-size: 16px;
+    padding-left: 60px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+.texto-sobre ul li {
+    padding-left: 10px; 
+    font-size: 20px;
+    margin-bottom: 14px;
 }
 .img-sobre{
     border-radius: 20px;
+}
+.sobre a {
+    color: #0077cc;
+    text-decoration: none;
+    margin-bottom: 20px;
+}
+
+.sobre a:hover {
+    color: #005fa3;
 }
 
 
@@ -240,19 +266,20 @@ section.sobre .geral{
 /*Página Profissional*/
 section.profissional{
     color: gray;
-    padding: 40px 4%;
-    margin: 100px;
+    padding: 20px 4%;
+    margin: 40px;
     margin-top: auto;
 }
 .prof h2{
     font-size: 40px;
     text-align: center;
     align-items: center;
+    margin-bottom: 50px;
 }
 .prof p{
     font-size: 20px;
-    text-align: justify;
-    text-indent: 60px;
+    text-align: center;
+    margin-bottom: 50px;
 }
 
 
