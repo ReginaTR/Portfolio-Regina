@@ -165,20 +165,24 @@ section.meio-pagina{
 section.meio-pagina .geral{
     align-items: center;
     justify-content: center;
+    text-align: center;
 }
 .meio-pagina h1{
     color: rgb(233, 230, 230);
     font-size: 60px;
+    margin-bottom: 40px;
 }
 .meio-pagina p{
     color: rgb(233, 230, 230);
     font-size: 40px;
     text-align: center;
+    margin-bottom: 80px;
 }
 .meio-pagina p spam{
     font-size: px;
     color: darkslategrey;
     text-align: center;
+   
 }
 
 
@@ -490,6 +494,8 @@ form .btn-enviar button{
     }
     .sobre p{
         font-size: 17px;
+    }.texto-sobre ul li {
+        font-size: 17px;
     }
 
     
@@ -506,7 +512,6 @@ form .btn-enviar button{
     }
     .prof p{
         font-size: 17px;
-        text-indent: 60px;
     }
 
 
