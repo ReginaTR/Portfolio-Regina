@@ -300,20 +300,24 @@ section.projetos{
 }
 section.projetos .geral{
     justify-content: space-around;
-
 }
+.projetos h2{
+    text-align: center;
+    color:#fff;
+    margin-bottom: 60px;
+    font-size: 50px;
+}
+
 .image{
     width: 360px;
     height: 360px;
     background-size: cover;
-    background-position: 100% 0%;
+    background-position: center;
     transition: 0.7s;
     cursor: pointer;
     border-radius: 40px;
     position: relative;
-    
 }
-
 .image:hover{
     transform: scale(1.10);
 }
@@ -337,7 +341,18 @@ section.projetos .geral{
 .overlay:hover{
     opacity: 1;
 }
-
+.texto-projeto{
+    color: rgb(233, 230, 230);
+    width: 360px;
+    font-size: 18px;
+    text-align: justify;
+    margin-top: 20px;
+    line-height: 1.5;
+}
+.texto-projeto p{
+    text-indent: 20px;
+    line-height: 1.8;
+}
 
 
 /*Página Contato*/
@@ -476,6 +491,8 @@ form .btn-enviar button{
     .sobre p{
         font-size: 17px;
     }
+
+    
     /*Página Profissional*/
     section.profissional{
         
@@ -491,12 +508,18 @@ form .btn-enviar button{
         font-size: 17px;
         text-indent: 60px;
     }
+
+
     /*Página Projetos*/
-    .projetos p{
-        font-size: 25px;
-        margin-top: 50px;
-        margin-bottom: 70px;
-    } 
+    section.projetos .geral{
+        flex-direction: column;
+        gap: 40px;
+        align-items: center
+    }
+
+    
+    
+
     /*Página Resposta*/
     .resposta{
         margin-top: 150px;
@@ -513,6 +536,8 @@ form .btn-enviar button{
         font-size: 17px;
         border-radius: 10px;    
     }
+
+
     /*Página Contato*/
     form{
         max-width: 300px;
