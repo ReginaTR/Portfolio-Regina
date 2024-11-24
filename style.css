@@ -470,7 +470,7 @@ form .btn-enviar button{
     .meio-pagina h1{
         font-size: 35px;
         text-align: center;
-        
+        margin-bottom: 20px;
     }
     .meio-pagina p{
         font-size: 20px;
@@ -508,12 +508,12 @@ form .btn-enviar button{
     }
     .prof h2{
         font-size: 30px;
-        
+        margin-bottom: 10px;
     }
     .prof p{
-        font-size: 17px;
-    }
-
+        font-size: 17px; 
+        margin-bottom: 20px;
+    }    
 
     /*Página Projetos*/
     section.projetos .geral{
