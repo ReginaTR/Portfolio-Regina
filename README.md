@@ -1,2 +1,4 @@
 # Portifólio Regina
- Esse portfólio foi um trabalho realizado durante as aulas de HTML e CSS. Uma das exigências é que fosse desenvolvido sem frameworks e sem o Bootstrap. 
+ Esse portfólio foi desenvolvido com HTML, CSS e Javascript puros. Sem uso de frameworks. Nele eu exponho meus projetos e minha experiência.
+
+
